@@ -13,7 +13,7 @@ go build -o srv ./server/main.go
 ```
 
 ```
-go build -o clnt ./server/main.go
+go build -o clnt ./client/main.go
 ```
 
 # Run
