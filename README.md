@@ -30,3 +30,10 @@ In separate terminal run client:
 
 Try to remove socket file `rm /tmp/echo.sock` and then run client again - server should be restarted and communicating and socket file present again.
 
+# Links
+
+Used code samples from:  
+
+https://grpc.io/docs/languages/go/quickstart/
+
+https://github.com/jianfengye/go-superviser
