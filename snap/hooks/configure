@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+# Create a default config file
+
+ls -la "$SNAP_COMMON" >> "$SNAP_DATA/ls.txt"
+echo "AAA" > "$SNAP_COMMON/my.socket"
+ls -la "$SNAP_COMMON" >> "$SNAP_DATA/ls.txt"
+#chown lxd:lxd "$SNAP_COMMON/my2.socket"
+#chgrp nordvpn "$SNAP_COMMON/my2.socket"
+#ls -la "$SNAP_COMMON" >> "$SNAP_DATA/ls.txt"
